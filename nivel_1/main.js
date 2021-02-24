@@ -24,6 +24,11 @@ if (nota_examen > 5) {
 }
 
 //Exercicio 6
+var blueCar = "Tinc un cotxe de color blau.";
+
+console.log(blueCar);
+
+console.log(blueCar.replace("blau", "verd"));
 
 
 
