@@ -16,9 +16,12 @@ let result = num1 + num2;
 console.log("La suma entre "+ num1 +" y " + num2 + " es: "+ result);
 
 //Exercicio 5
-
-
-
+var nota_examen = 7.5;
+if (nota_examen > 5) {
+    alert("Felicidades! Has aprobado el examen con un " + nota_examen);
+} else {
+    alert("Ohh, has suspendido en examen con un " + nota_examen);
+}
 
 //Exercicio 6
 
