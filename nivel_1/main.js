@@ -1,13 +1,13 @@
 //Exercicio 1
-console.log('Hello World!');
+console.log("Hola mundo!");
 
 //Exercicio 2
-alert('My name is Maria!');
+alert("Me llamo Maria!");
 
 //Exercicio 3
-const firstName = 'Maria';
-const lastName = 'Cassandra';
-console.log(firstName + ' ' + lastName);
+const firstName = "Maria";
+const lastName = "Cassandra";
+console.log(firstName + " " + lastName);
 
 //Exercicio 4
 let num1 = 23;
