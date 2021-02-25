@@ -24,14 +24,17 @@ if (nota_examen > 5) {
 }
 
 //Exercicio 6
+// cambio de blau a verd
 var blueCar = "Tinc un cotxe de color blau.";
 
 console.log(blueCar);
 
 console.log(blueCar.replace("blau", "verd"));
 
+// cambio de las letras
+var letter = "o";
 
-
+console.log(blueCar.replace(new RegExp(letter, "g"), "u"));
 
 //Exercicio 7
 
