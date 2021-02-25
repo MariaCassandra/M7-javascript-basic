@@ -37,9 +37,10 @@ var letter = "o";
 console.log(blueCar.replace(new RegExp(letter, "g"), "u"));
 
 //Exercicio 7
+var muebles = ['taula', 'cadira', 'ordinador', 'llibreta'];
 
-
-
-
+for (let i=0; i < muebles.length; i++) {
+    console.log("L'objecte " + muebles[i] + " està a la posició " + i);
+}
 
 //Exercicio 8
