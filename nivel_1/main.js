@@ -44,3 +44,24 @@ for (let i=0; i < muebles.length; i++) {
 }
 
 //Exercicio 8
+function calculadora(operador, valor1, valor2) {
+if (operador == "suma") {
+var resultat = valor1 + valor2;
+}
+else if (operador == "resta") {
+var resultat = valor1 - valor2;
+}
+else if (operador == "multiplicacion") {
+var resultat = valor1 * valor2;
+}
+else if (operador == "division") {
+var resultat = valor1 / valor2;
+}
+console.log(resultat);
+}
+
+calculadora("suma", 70, 23);
+
+calculadora("resta", 90, 23);
+calculadora("multiplicacion", 23, 6);
+calculadora("division", 40, 2);
