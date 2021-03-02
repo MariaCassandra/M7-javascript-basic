@@ -65,3 +65,26 @@ calculadora("suma", 70, 23);
 calculadora("resta", 90, 23);
 calculadora("multiplicacion", 23, 6);
 calculadora("division", 40, 2);
+
+
+//Nivel 2 calculadora completa
+function calculadoraCompleta(operador, valor1, valor2) {
+            if (operador === "suma") {
+                return valor1 + valor2;
+            } else if (operador === "resta") {
+                return valor1 - valor2;
+            } else if (operador === "multiplicacion") {
+                return valor1 * valor2;
+            }
+            else if (operador === "divicion") {
+                if (valor2 === 0) {
+                    return "Resultado infinito";
+                } else {
+                    return valor1 / valor2;
+                }
+                
+            }
+        }
+
+        var resultat2 = (calculadoraCompleta("divicion", 40, 0));
+        console.log(resultat2);
