@@ -76,7 +76,7 @@ function calculadoraCompleta(operador, valor1, valor2) {
             } else if (operador === "multiplicacion") {
                 return valor1 * valor2;
             }
-            else if (operador === "divicion") {
+            else if (operador === "division") {
                 if (valor2 === 0) {
                     return "Resultado infinito";
                 } else {
@@ -86,5 +86,5 @@ function calculadoraCompleta(operador, valor1, valor2) {
             }
         }
 
-        var resultat2 = (calculadoraCompleta("divicion", 40, 0));
+        var resultat2 = (calculadoraCompleta("division", 40, 0));
         console.log(resultat2);
